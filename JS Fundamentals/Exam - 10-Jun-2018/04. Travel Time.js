@@ -1,4 +1,4 @@
-function countryMarket(input) {
+function solve(input) {
     let countries = new Map();
 
     for (let i = 0; i < input.length; i++) {
