@@ -1,6 +1,3 @@
-/**
- * Created by Deyan Peychev on 10-Aug-17.
- */
 let remote = (() => {
     // database info
     const appKey = 'kid_H1Oz41Lv-';

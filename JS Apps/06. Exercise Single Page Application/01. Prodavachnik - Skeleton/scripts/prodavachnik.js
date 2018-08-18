@@ -1,11 +1,8 @@
 function startApp() {
-    //DOM elements
     const adsDIV = $('#ads');
 
-    // display navigation
     $('header').find('a').show();
 
-    // display home page
     $('#viewHome').show();
 
 /*    function navigate(e){
@@ -46,7 +43,6 @@ function startApp() {
         }
     }
 
-    // attach event listeners
     $('#linkHome').click(() => showView('home'));
     $('#linkLogin').click(() => showView('login'));
     $('#linkListAds').click(() => showView('ads'));
@@ -58,7 +54,6 @@ function startApp() {
     $('#buttonRegisterUser').click(register);
     $('#buttonCreateAd').click(createAd);
 
-    // notification and error handling
     $(document).on({
         ajaxStart: () => $('#loadingBox').show(),
         ajaxStop: () => $('#loadingBox').fadeOut()
@@ -84,7 +79,6 @@ function startApp() {
 
 
     let requester = (() => {
-        // database info
         const appKey = 'kid_H1Oz41Lv-';
         const appSecret = 'e279a419454b48e2b04ac042b811a8cb';
         const baseURL = 'https://baas.kinvey.com/';
@@ -140,7 +134,6 @@ function startApp() {
         userLoggedOut();
     }
 
-    // user session
     function userLoggedIn() {
         $('#loggedInUser').text('Welcome, ' + localStorage.getItem('username') + '!');
         $('#loggedInUser').show();
@@ -207,8 +200,6 @@ function startApp() {
             handleError(err);
         }
     }
-
-    // ads
 
     async function loadAds() {
         let data = await requester.get('appdata', 'ads');

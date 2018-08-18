@@ -1,6 +1,3 @@
-/**
- * Created by Deyan Peychev on 27-Jul-17.
- */
 function loadRepos(){
     let req = new XMLHttpRequest();
 
@@ -14,10 +11,8 @@ function loadRepos(){
         display(repos);
     });
 
-    // make request connection
     req.open('GET', 'https://api.github.com/users/testnakov/repos', true);
 
-    // send request
     req.send();
 
     function display(repos) {

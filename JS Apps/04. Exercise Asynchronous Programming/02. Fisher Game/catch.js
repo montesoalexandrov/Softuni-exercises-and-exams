@@ -1,6 +1,3 @@
-/**
- * Created by Deyan Peychev on 02-Aug-17.
- */
 function attachEvents() {
     const baseURL = `https://baas.kinvey.com/appdata/kid_r1R6IF1Db`;
     const base64auth = btoa(`dido:dido`);

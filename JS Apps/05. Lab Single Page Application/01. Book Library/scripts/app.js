@@ -1,15 +1,10 @@
-/**
- * Created by Deyan Peychev on 03-Aug-17.
- */
 $(() => {
     setGreeting();
 
-    // app consts
     const appKey = 'kid_BJ-otPxD-';
     const appSecret = '0e80570c75894b08afaa6cda7c4ecf82';
     const baseURL = 'https://baas.kinvey.com/';
 
-    // attach events on navigation menu buttons
     $('#linkHome').click(() => showView('home'));
     $('#linkLogin').click(() => showView('login'));
     $('#linkRegister').click(() => showView('register'));
@@ -17,12 +12,10 @@ $(() => {
     $('#linkCreateBook').click(() => showView('createBook'));
     $('#linkLogOut').click(logout);
 
-    // attach submit events on forms
-    $('#viewLogin').find('form').submit(login); // login
-    $('#viewRegister').find('form').submit(register); // register
-    $('#viewCreate').find('form').submit(createBook); // create new book
+    $('#viewLogin').find('form').submit(login); 
+    $('#viewRegister').find('form').submit(register); 
+    $('#viewCreate').find('form').submit(createBook); 
 
-    // set notifications
     $(document).on({
         ajaxStart: function () {
             $('#loadingBox').show();
@@ -32,11 +25,9 @@ $(() => {
         }
     });
 
-    // notifications hide when user clicks them
     $('#infoBox').click((e) => $(e.target).hide());
     $('#errorBox').click((e) => $(e.target).hide());
 
-    // notification and error handling
     function showInfo(message) {
         $('#infoBox').text(message);
         $('#infoBox').show();
@@ -51,7 +42,6 @@ $(() => {
         showError(reason.responseJSON.description);
     }
 
-    // navigation and header
     function showView(name) {
        $('section').hide();
 
@@ -84,19 +74,16 @@ $(() => {
        }
     }
 
-    // user session and navigation edit
     function setGreeting() {
        let username = localStorage.getItem('username');
        if(username !== null){
            $('#loggedInUser').text(`Welcome, ${username}!`);
-           // edit navigation
            $('#linkLogin').hide();
            $('#linkRegister').hide();
            $('#linkCreateBook').show();
            $('#linkListBooks').show();
            $('#linkLogOut').show();
        }else{
-           // edit navigation
            $('#loggedInUser').text('');
            $('#linkLogin').show();
            $('#linkRegister').show();
@@ -201,7 +188,6 @@ $(() => {
         }
     }
 
-    // catalog
     function getBooks() {
         $('#viewBooks').find('table').find('tbody').empty();
 
@@ -305,7 +291,7 @@ $(() => {
         $('#editAuthor').val(targetBook.author);
         $('#editDescription').val(targetBook.description);
 
-        $('#viewEdit').find('form').submit(edit); // edit book
+        $('#viewEdit').find('form').submit(edit);
 
         function edit(e) {
             e.preventDefault();

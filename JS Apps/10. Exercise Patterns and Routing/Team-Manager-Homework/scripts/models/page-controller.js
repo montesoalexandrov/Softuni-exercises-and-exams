@@ -1,6 +1,3 @@
-/**
- * Created by Deyan Peychev on 14-Aug-17.
- */
 let pageController = (() => {
 
     let commonPartials = {

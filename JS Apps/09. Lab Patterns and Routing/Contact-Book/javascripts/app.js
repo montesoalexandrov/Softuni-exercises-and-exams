@@ -54,7 +54,6 @@ $(() => {
                 });
         });
 
-        // POST
         this.post('#/login', function (context) {
             console.log('Logging in...');
             let username = context.params.username;
@@ -68,11 +67,9 @@ $(() => {
         });
 
         this.post('#/register', function () {
-            // handle register
         });
 
         this.post('#/profile', function () {
-            // edit profile
         });
 
     }).run();
