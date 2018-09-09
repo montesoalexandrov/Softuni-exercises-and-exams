@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Dangerous Floor", "01. Dangerous Floor\01. Dangerous Floor.csproj", "{B8B1D417-AA84-441E-A937-F0FECC31EB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Crypto Master", "02. Crypto Master\02. Crypto Master.csproj", "{AF116A2B-72F2-424C-A7A3-291D7C165DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Greedy Times", "03. Greedy Times\03. Greedy Times.csproj", "{F58E0D21-5FDB-404B-A20B-209B595208E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Treasure Map", "04. Treasure Map\04. Treasure Map.csproj", "{FB4166B6-ECFE-4762-B427-C534C9DE9021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B1D417-AA84-441E-A937-F0FECC31EB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B1D417-AA84-441E-A937-F0FECC31EB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B1D417-AA84-441E-A937-F0FECC31EB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B1D417-AA84-441E-A937-F0FECC31EB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF116A2B-72F2-424C-A7A3-291D7C165DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF116A2B-72F2-424C-A7A3-291D7C165DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF116A2B-72F2-424C-A7A3-291D7C165DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF116A2B-72F2-424C-A7A3-291D7C165DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58E0D21-5FDB-404B-A20B-209B595208E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58E0D21-5FDB-404B-A20B-209B595208E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58E0D21-5FDB-404B-A20B-209B595208E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58E0D21-5FDB-404B-A20B-209B595208E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4166B6-ECFE-4762-B427-C534C9DE9021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4166B6-ECFE-4762-B427-C534C9DE9021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4166B6-ECFE-4762-B427-C534C9DE9021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4166B6-ECFE-4762-B427-C534C9DE9021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E39971BB-E417-41AA-AFD8-3F6E9DB39E25}
+	EndGlobalSection
+EndGlobal
