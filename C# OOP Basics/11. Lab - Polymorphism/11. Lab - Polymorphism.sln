@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{ADFD1A86-3638-4A79-8F57-0144833931B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{8D4BC93B-71DB-4B15-A08C-0D295A53CE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{9470CB22-E81E-442E-9351-5BC6EEE7C844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFD1A86-3638-4A79-8F57-0144833931B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFD1A86-3638-4A79-8F57-0144833931B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFD1A86-3638-4A79-8F57-0144833931B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFD1A86-3638-4A79-8F57-0144833931B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4BC93B-71DB-4B15-A08C-0D295A53CE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4BC93B-71DB-4B15-A08C-0D295A53CE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4BC93B-71DB-4B15-A08C-0D295A53CE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4BC93B-71DB-4B15-A08C-0D295A53CE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9470CB22-E81E-442E-9351-5BC6EEE7C844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9470CB22-E81E-442E-9351-5BC6EEE7C844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9470CB22-E81E-442E-9351-5BC6EEE7C844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9470CB22-E81E-442E-9351-5BC6EEE7C844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7605E82-4137-4BBC-B945-97B8580DCE48}
+	EndGlobalSection
+EndGlobal
